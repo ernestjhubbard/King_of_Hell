@@ -1,0 +1,79 @@
+.playerscorebox{
+  position: relative;
+  height: 180px;
+  width: 280px;
+  border: 3px solid red;
+  background-size: contain;
+}
+.jack{
+  background-image:url(images/skellington.jpg);
+}
+.finkelstein{
+  background-image:url(images/finkelstein.jpg);
+}
+.oogie{
+  background-image:url(images/oogieboogie.jpg);
+}
+.starbox{
+  display: flex;
+  border: 3px solid white;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  height: 20px;
+  width: 40px;
+}
+.star{
+  width: 50%;
+  height: 100%;
+  margin:0;
+  background: red;
+}
+.points{
+  width: 50%;
+  margin: 0;
+  height: 100%;
+  background: green;
+}
+.heartbox{
+  display: flex;
+  border: 3px solid white;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  height: 20px;
+  width: 40px;
+}
+.heart{
+  width: 50%;
+  height: 100%;
+  margin:0;
+  background: red;
+}
+.health{
+  width: 50%;
+  margin: 0;
+  height: 100%;
+  background: green;
+}
+.energybox{
+  display: flex;
+  border: 3px solid white;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  height: 20px;
+  width: 40px;
+}
+.energy{
+  width: 50%;
+  height: 100%;
+  margin:0;
+  background: red;
+}
+.energynumber{
+  width: 50%;
+  margin: 0;
+  height: 100%;
+  background: green;
+}
